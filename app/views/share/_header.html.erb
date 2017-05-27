@@ -1,0 +1,20 @@
+<nav class="navbar">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#"> <%= image_tag("weinja.png", alt: "Weinja") %></a></div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><%= link_to 'Home', root_path %></li>
+        <li><%= link_to 'About', contact_path %></li>
+        <li><%= link_to 'Gallary', contact_path %></li>
+        <li><%= link_to 'Services', contact_path %></li>
+        <li><%= link_to 'Contact', contact_path %></li>
+      </ul>
+    </div>
+  </div>
+</nav>
