@@ -33,6 +33,7 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 gem 'figaro'
+gem 'nokogiri', '~> 1.6', '>= 1.6.8'
 
 
 group :development, :test do
